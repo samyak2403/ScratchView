@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Default State -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FF0081" /> <!-- Pink Color -->
+        </shape>
+    </item>
+
+    <!-- Pressed State -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#FF0081" /> <!-- Hot Pink for Pressed State -->
+        </shape>
+    </item>
+</selector>
